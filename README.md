@@ -1,2 +1,2 @@
-# snake-game
-snake game with python
+Dpwnload the zip file and play this excellent game:)
+
