@@ -1,2 +1,2 @@
-Dpwnload the zip file and play this excellent game:)
+Dpwnload the zip file and must extract the files in one folder to play this excellent game:)
 
