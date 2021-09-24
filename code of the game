@@ -148,10 +148,14 @@ def gameloop():
 
             
 
-            if snake_x<0 or snake_x>screen_width or snake_y<0 or snake_y>screen_height:
+            if snake_x<7 or snake_x>screen_width or snake_y<7 or snake_y>screen_height:
                 game_over=True
                 pygame.mixer.music.load('go.mp3')
                 pygame.mixer.music.play()
+            pygame.draw.rect(gamewindow,black,(2,0,5,screen_height))
+            pygame.draw.rect(gamewindow,black,(0,0,screen_width,2))
+            pygame.draw.rect(gamewindow,black,(0,screen_height-7,screen_width,5))
+            pygame.draw.rect(gamewindow,black,(screen_width-7,0,5,screen_width))
             plot_snake(gamewindow,blue,snake_list,snake_radius)
         pygame.display.update()
         clock.tick(fps)
